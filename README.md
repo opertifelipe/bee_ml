@@ -20,7 +20,7 @@ I trained the data using four method: Gradient Boosting Regression, Linear Regre
 
 The aim of the project is to show the possility to improve the production of honey using a machine learning model. Dowloading the weather forecast for the next week and given the month, each week the beekeeper will know the best place to hold the hives.
 
-## Next step 
+## Next steps
 Here a list several important next step:
 - Increase the amount of data. I used the data coming from only two hives. Therefore, it is really important to improve the amount of data from more hives.
 - Define different targets and create several models to define which is the place to locate the hives for the next week.
