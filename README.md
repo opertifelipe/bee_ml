@@ -4,6 +4,8 @@ This project shows a simple model able to predict the percentange growth of hone
 
 Normally, beekeepers divide the hives in several places to improve the production because in some places they produce more and in other less. The aim of this project is to know in advance the best place to put the hives. Indeed the beekeepers each week should place the hives in different places to improve the production. 
 
+## Contents
+
 ## Data 
 All data are downloaded from Kaggle from the url https://www.kaggle.com/se18m502/bee-hive-metrics. Here, I use the data of humity, temperature, and weight of the years 2017-2019 of two hives (from Wurzburg and Schwartau in Germany).
 
@@ -26,3 +28,5 @@ Here a list several important next step:
 - Define different targets and create several models to define which is the place to locate the hives for the next week.
 - More features. Here I used temperature and humidity. Probably more features should improve the result. 
  
+## References
+
