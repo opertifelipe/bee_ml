@@ -9,12 +9,12 @@ All data are downloaded from Kaggle from the url https://www.kaggle.com/se18m502
 
 ## Preprocessing
 
-*Features:* The data show the temperature and the humidity measured each hour for the time interval 2017-2019. From them I calculate the max, the min e the mean of each quantity for seven days. These are the information about the weather. Furthermore, I add the month feature as additional info about the season. Indeed, this last feature is a proxy for the seasonal flowering. During the train phase we have the real weather data from the control units located in each hive. During the scoring phase, the beekeeper should use weather forecast to create the features and provide the result. 
+*Features:* The data show the temperature and the humidity measured each hour for the time interval 2017-2019. From them I calculated2 the max, the min e the mean of each quantity for seven days. These are the information about the weather. Furthermore, I add the month feature as additional info about the season. Indeed, this last feature is a proxy for the seasonal flowering. During the train phase we have the real weather data from the control units located in each hive. During the scoring phase, the beekeeper should use weather forecast to create the features and provide the result. 
 
 *Target:* The target is given by the percentage growth of the honey produced in a week by the hive. For example, if on Monday the hive weighs $w_m Kg$ and on the next Sunday the hive weighs $w_s Kg$, therefore the target $\Delta_w = 100*\frac{w_s-w_m}{w_m}$. Furthermore I added two constraints: $-100 \leq \Delta_w \leq 100$. Values outside these constraints are reduced to respectively $-100$ and $100$.
 
 ## Model
-I trained the data using four regression model: Gradient Boosting Regression, Linear Regression, Polynomial Regression, and Random Forest. After that I evaluated them calculating the RMSE. The result shows that the Random Forest Regression is the most performing technique with $RMSE=18.2$. The optimal parameters are calculated using the grid search and using cross validation with three folders. 
+I trained the data using four regression model: Gradient Boosting Regression, Linear Regression, Polynomial Regression, and Random Forest Regression. After that I evaluated them calculating the RMSE. The result shows that the Random Forest Regression is the most performing technique with $RMSE=18.2$. The optimal parameters are calculated using the grid search and using cross validation with three folders. 
 
 ## Conclusion
 
