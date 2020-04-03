@@ -11,7 +11,7 @@ List of questions:
 1. Which is feasibility of the project? Are the data enough? Are the features enough?
 1. Is the result of model reliable and it is possible to apply it in the daily life of the beekeepers? 
 
-Everybody knows the famous sentence attributed to Albert Einstein *If the Bee Disappeared Off the Face of the Earth, Man Would Only Have Four Years Left To Live*. Indeed, from decades the importance of the pollition and the benefits of the honey are known by everyone. Instead, not everybody know that, unfortunalelly from several years the bee are disappearing ([1],[2], and I could cite many others).  
+Everybody knows the famous sentence attributed to Albert Einstein *If the Bee Disappeared Off the Face of the Earth, Man Would Only Have Four Years Left To Live*. Indeed, from decades the importance of the pollition and the benefits of the honey are known by everyone. Instead, not everybody know that, unfortunately from several years the bee are disappearing ([1],[2], and I could cite many others). For such scientific evedinces, it will always be increasingly difficult to produce honey and all its derivatives. In this context, this model should whet the beekeepers interested in using the tecnology and the artificial inteligence to improve their production.
 
 ## Data 
 All data are downloaded from Kaggle from the url https://www.kaggle.com/se18m502/bee-hive-metrics. Here, I use the data of humidity, temperature, and weight of the years 2017-2019 of two hives (from Wurzburg and Schwartau in Germany).
