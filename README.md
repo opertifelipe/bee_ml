@@ -26,7 +26,7 @@ The best parameters for the Random Forest Regressin are:
  'min_samples_leaf': 1,
  'min_samples_split': 2,
  'n_estimators': 100,
- 'random_state': 1029}
+ 'random_state': 1029}.
 
 ## Conclusion
 
