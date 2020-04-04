@@ -1,17 +1,10 @@
 # Bee ML - Machine Learning model for honey production prevision
 
+Everybody knows the famous sentence attributed to Albert Einstein *If the Bee Disappeared Off the Face of the Earth, Man Would Only Have Four Years Left To Live*. Indeed, from decades the importance of the pollination and the benefits of the honey are known by everyone. Instead, not everybody know that, unfortunately from several years the bee are disappearing ([1],[2], and I could cite many others). For such scientific evidences, it will always be increasingly difficult to produce honey and all its derivatives. In this context, this model should stimulate the beekeepers interested in using the technology and the artificial intelligence to improve their production.
+
 This project shows a simple model able to predict the percentage growth of honey produced by a hive seven days in advance. This model should be useful for all beekeepers that would like to improve their production.
 
 Normally, beekeepers divide the hives in several places to improve the production because in some places they produce more and in other less. The aim of this project is to know in advance the best place to put the hives. Indeed the beekeepers each week should place the hives in different places to improve the production.
-
-To better clarify the aim of the project and to underline the business applicability, I would like to list three questions related to the real world application. During the next lines I will answer all of them.
-List of questions:
-
-1. Which is relevance of the problem and what could be the relevane of the solution?
-1. Which is feasibility of the project? Are the data enough? Are the features enough?
-1. Is the result of model reliable and it is possible to apply it in the daily life of the beekeepers? 
-
-Everybody knows the famous sentence attributed to Albert Einstein *If the Bee Disappeared Off the Face of the Earth, Man Would Only Have Four Years Left To Live*. Indeed, from decades the importance of the pollition and the benefits of the honey are known by everyone. Instead, not everybody know that, unfortunately from several years the bee are disappearing ([1],[2], and I could cite many others). For such scientific evedinces, it will always be increasingly difficult to produce honey and all its derivatives. In this context, this model should whet the beekeepers interested in using the tecnology and the artificial inteligence to improve their production.
 
 ## Data 
 All data are downloaded from Kaggle from the url https://www.kaggle.com/se18m502/bee-hive-metrics. Here, I use the data of humidity, temperature, and weight of the years 2017-2019 of two hives (from Wurzburg and Schwartau in Germany).
@@ -48,4 +41,3 @@ The project contains three files:
 [1]: Jessica Hamzelou. Where have all the bees gone? 2007
 
 [2]: Rosa, J. M.,Arioli C. J.,Nunes-Silva P.,Garcia F. R. M.. Disappearance of pollinating bees in natural and agricultural systems: is there an explanation?
-
