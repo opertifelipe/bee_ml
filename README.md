@@ -20,6 +20,14 @@ All data are downloaded from Kaggle from the url https://www.kaggle.com/se18m502
 ## Model
 I trained the data using four regression model: Gradient Boosting Regression, Linear Regression, Polynomial Regression, and Random Forest Regression. After that I evaluated them calculating the RMSE. The result shows that the Random Forest Regression is the most performing technique with $RMSE=18.2$. The optimal parameters are calculated using the grid search and using cross validation with three folders. 
 
+The best parameters for the Random Forest Regressin are:
+{'max_depth': None,
+ 'max_features': 2,
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 100,
+ 'random_state': 1029}
+
 ## Conclusion
 
 The aim of the project is to show the possibility to improve the production of honey using a machine learning model. Downloading the weather forecast for the next week and given the month, each week the beekeeper will know the best place to hold the hives with an error of 18%. The error is large and it is probably due to the small dataset that I used indeed I only have data about two hives. Furthermore, I used few estimators in the random forest to reduce the processing time.    
