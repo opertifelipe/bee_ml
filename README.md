@@ -1,5 +1,7 @@
 # Bee ML - Machine Learning model for honey production prevision
 
+*Link to Medium Blog*: https://medium.com/@operti.felipe/to-bee-or-not-to-be-ml-i-choose-to-bee-a4538c41cf94
+
 Everybody knows the famous sentence attributed to Albert Einstein *If the Bee Disappeared Off the Face of the Earth, Man Would Only Have Four Years Left To Live*. Indeed, from decades the importance of the pollination and the benefits of the honey are known by everyone. Instead, not everybody know that, unfortunately from several years the bee are disappearing ([1],[2], and I could cite many others). For such scientific evidences, it will always be increasingly difficult to produce honey and all its derivatives. In this context, this model should stimulate the beekeepers interested in using the technology and the artificial intelligence to improve their production.
 
 This project shows a simple model able to predict the percentage growth of honey produced by a hive seven days in advance. This model should be useful for all beekeepers that would like to improve their production.
