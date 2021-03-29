@@ -102,7 +102,7 @@ pycairo==1.19.0
 pycodestyle==2.5.0
 pyelftools==0.26
 pyflakes==2.1.1
-Pygments==2.5.2
+Pygments==2.7.4
 PyGObject==3.34.0
 PyInstaller==4.0.dev0+1eadfa55f2
 pylint==2.4.4
